@@ -2,19 +2,19 @@
 
 ## Project setup
 
-```js
+```bash
 npm install
 ```
 
 ### Compiles and hot-reloads for development
 
-```js
+```bash
 npm run serve
 ```
 
 ### Compiles and minifies for production
 
-```js
+```bash
 npm run build
 ```
 

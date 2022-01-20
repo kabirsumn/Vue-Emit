@@ -1,17 +1,14 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <BlogPost />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BlogPost from './components/BlogPost.vue';
 
 export default {
   name: 'App',
-  components: {
-    HelloWorld
-  }
-}
+  components: { BlogPost },
+};
 </script>
 
 <style>

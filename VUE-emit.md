@@ -5,11 +5,11 @@
 > > Custom event is a way to communicate from child component to parent component.  
 > > with Custom event parent Components can listen child Components Events.
 >
-> There is anotehr way of communication between parent and child component.  
-> and that is `props` . the difference between these two is
+> _There is anotehr way of communication between parent and child component.  
+> and that is `props` . the difference between these two is_
 >
-> - **with `props` data from parent component can be passed to the child component.**  
->   and
+> - **with `props` data from parent component can be passed to the child component.**
+>
 > - **with `emit` parent component can listen child components Events. (data from child component can be passed to the parent component) .**
 
 ## [Example 1](VUE-emit.md)

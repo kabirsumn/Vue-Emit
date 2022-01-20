@@ -6,7 +6,7 @@
 > > with Custom event parent Components can listen child Components Events.
 >
 > \_There is anotehr way of communication between parent and child component.  
-> and that is `props` . the difference between these two is :
+> and that is `props` . the difference between these two is
 >
 > **with `props` data from parent component can be passed to the child component.**  
 > and  

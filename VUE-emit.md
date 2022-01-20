@@ -8,8 +8,8 @@
 > _There is anotehr way of communication between parent and child component.  
 > and that is `props` . the difference between these two is_
 >
-> - **\_with `props` data from parent component can be passed to the child component.**\_
+> - _**with `props` data from parent component can be passed to the child component.**_
 >
-> - **\_with `emit` parent component can listen child components Events. (data from child component can be passed to the parent component) .**\_
+> - _**with `emit` parent component can listen child components Events. (data from child component can be passed to the parent component) .**_
 
 ## [Example 1](VUE-emit.md)

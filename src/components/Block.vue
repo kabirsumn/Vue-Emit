@@ -1,11 +1,13 @@
 <template>
-  <div class="box">
+  <div class="box" @click="$emit('close')">
     <p>click</p>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  emits: ['close'],
+};
 </script>
 
 <style></style>

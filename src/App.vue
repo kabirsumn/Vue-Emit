@@ -1,6 +1,6 @@
 <template>
   <h2>You Must <span class="log-in" @click="getBlock">Log in</span></h2>
-  <block v-show="showBlock" />
+  <block v-show="showBlock" @close="showBlock = false" />
 </template>
 
 <script>

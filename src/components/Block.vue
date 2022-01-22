@@ -1,5 +1,7 @@
 <template>
-  <div class="box">click</div>
+  <div class="box">
+    <p>click</p>
+  </div>
 </template>
 
 <script>

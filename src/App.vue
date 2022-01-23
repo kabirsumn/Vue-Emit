@@ -1,25 +1,10 @@
-<template>
-  <h2>You Must <span class="log-in" @click="getBlock">Log in</span></h2>
-  <block v-show="showBlock" @close="getBlock" />
-</template>
+<template></template>
 
 <script>
 import Block from './components/Block.vue';
 export default {
   name: 'App',
   components: { Block },
-
-  data() {
-    return {
-      showBlock: false,
-    };
-  },
-
-  methods: {
-    getBlock() {
-      this.showBlock = !this.showBlock;
-    },
-  },
 };
 </script>
 

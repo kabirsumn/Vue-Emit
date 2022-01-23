@@ -1,5 +1,5 @@
 <template>
-  <div class="box">
+  <div class="box" @click="$emit('close')">
     <p>click</p>
   </div>
 </template>

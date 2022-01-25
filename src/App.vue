@@ -1,4 +1,11 @@
+<<<<<<< HEAD
 <template></template>
+=======
+<template>
+  <h2>You Must <span class="log-in" @click="getBlock">Log in</span></h2>
+  <block v-show="showBlock" @close="showBlock = false" />
+</template>
+>>>>>>> example-block-hide-show-version
 
 <script>
 import Block from './components/Block.vue';

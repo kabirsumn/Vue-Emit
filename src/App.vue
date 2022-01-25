@@ -1,6 +1,6 @@
 <template>
   <h2>You Must <span class="log-in" @click="getBlock">Log in</span></h2>
-  <block v-show="showBlock" @close="getBlock" />
+  <block v-show="showBlock" @close="showBlock = false" />
 </template>
 
 <script>
@@ -17,7 +17,7 @@ export default {
 
   methods: {
     getBlock() {
-      this.showBlock = !this.showBlock;
+      this.showBlock = true;
     },
   },
 };

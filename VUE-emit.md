@@ -14,7 +14,7 @@
 
 ## [Example 1](VUE-emit.md)
 
-## This is a _Root Component (Parent/ App Component)_
+## This is a **_Root Component (Parent/ App Component)_**
 
 ```Vue
 <template>
@@ -45,7 +45,7 @@ export default {
 </script>
 ```
 
-## and This is a _Child Component_
+## and This is a **_Child Component_**
 
 ```Vue
 <template>
@@ -57,4 +57,4 @@ export default {
 </template>
 ```
 
-The `'close'` _Custom Event_ is changing `showBlock` data, that is in the _Parent Component_
+The `'close'` **_Custom Event_** is changing `showBlock` data, that is in the **_Parent Component_**

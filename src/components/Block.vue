@@ -8,4 +8,11 @@
 export default {};
 </script>
 
-<style></style>
+<style>
+.box {
+  width: 400px;
+  padding: 100px 0;
+  background-color: #15daa8;
+  border-radius: 10px;
+}
+</style>

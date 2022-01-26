@@ -1,5 +1,7 @@
 <template>
-  <h2>You Must <span class="log-in" @click="getBlock">Log in</span></h2>
+  <h2>
+    <span class="log-in" @click="getBlock">Click here</span> to get the box
+  </h2>
   <block v-show="showBlock" @close="showBlock = false" />
 </template>
 

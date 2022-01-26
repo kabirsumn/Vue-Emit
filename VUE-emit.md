@@ -19,7 +19,7 @@
 ```Vue
 <template>
   <h2>
-    <span class="log-in" @click="getBlock">Click here</span> to get the box
+    <span class="get-block" @click="getBlock">Click here</span> to get the box
   </h2>
   <block v-show="showBlock" @close="showBlock = false" />
 </template>

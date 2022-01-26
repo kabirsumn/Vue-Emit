@@ -1,6 +1,8 @@
 <template>
-  <div class="box" @click="$emit('close')">
-    <p>click</p>
+  <div class="container">
+    <div class="box" @click="$emit('close')">
+      <p>click</p>
+    </div>
   </div>
 </template>
 

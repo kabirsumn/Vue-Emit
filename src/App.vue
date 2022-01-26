@@ -24,6 +24,7 @@ export default {
 }
 
 #app .log-in {
+  background-color: #e0cdcd;
   color: #42ddaf;
   cursor: pointer;
   font-style: italic;

@@ -1,8 +1,8 @@
 <template>
   <h2>
-    <span class="log-in" @click="getBlock">Click here</span> to get the box
+    <span class="log-in" @click="getTheBlock">Click here</span> to get the box
   </h2>
-  <block v-show="showBlock" @close="showBlock = false" />
+  <block v-show="showTheBlock" @close="showTheBlock = false" />
 </template>
 
 <script>
@@ -13,13 +13,13 @@ export default {
 
   data() {
     return {
-      showBlock: false,
+      showTheBlock: false,
     };
   },
 
   methods: {
-    getBlock() {
-      this.showBlock = true;
+    getTheBlock() {
+      this.showTheBlock = true;
     },
   },
 };
